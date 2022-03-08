@@ -5,7 +5,7 @@ def count_two(n):
             n = n/2
             counter = counter + 1
         else:
-            return False
+            return False, None
     return True, counter
 
 if __name__ == '__main__':
