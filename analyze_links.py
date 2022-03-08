@@ -21,5 +21,5 @@ if __name__ == '__main__':
         for l in links:
             link = f'<a href={l}>{l}</a><br>'
             f.write(link)
-            f.write('\n')
+            f.write('<br>')
         f.writelines(['</body>', '</html>', '\n'])
